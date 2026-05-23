@@ -26,3 +26,7 @@ const palavraMinuscula = "camelcase";
 const versaoCamelCase = palavraMinuscula.slice(0, 5) + palavraMinuscula[5].toUpperCase() + palavraMinuscula.slice(-3);
 console.log("Versao em camel case:");
 console.log(versaoCamelCase);
+
+const nome = "Giuliacastro";
+const nomeComLetraMaiuscula = nome.slice(0, 6)+ " "+ nome[6].toUpperCase() + nome.slice(-5);
+console.log( nomeComLetraMaiuscula);
