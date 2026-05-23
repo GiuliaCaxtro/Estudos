@@ -1,28 +1,28 @@
-const userInput = "   Hello World!   ";
-console.log("Original input:");
-console.log(userInput);
+const entradaUsuario = "   Ola Mundo!   ";
+console.log("Entrada original:");
+console.log(entradaUsuario);
 
-const cleanedInput = userInput.trim();
-console.log("Result of trimming whitespace from both ends:");
-console.log(cleanedInput);
+const entradaLimpa = entradaUsuario.trim();
+console.log("Resultado ao remover espaços das duas extremidades:");
+console.log(entradaLimpa);
 
-const trimmedStart = userInput.trimStart();
-console.log("After using the trimStart() method, leading spaces removed:");
-console.log(trimmedStart);
+const entradaSemEspacosNoInicio = entradaUsuario.trimStart();
+console.log("Apos usar o metodo trimStart(), os espaços iniciais foram removidos:");
+console.log(entradaSemEspacosNoInicio);
 
-const trimmedEnd = userInput.trimEnd();
-console.log("After using the trimEnd() method, trailing spaces removed:");
-console.log(trimmedEnd);
+const entradaSemEspacosNoFim = entradaUsuario.trimEnd();
+console.log("Apos usar o metodo trimEnd(), os espaços finais foram removidos:");
+console.log(entradaSemEspacosNoFim);
 
-const upperCaseInput = cleanedInput.toUpperCase();
-console.log("Result of using the toUpperCase() method:");
-console.log(upperCaseInput);
+const entradaMaiuscula = entradaLimpa.toUpperCase();
+console.log("Resultado ao usar o metodo toUpperCase():");
+console.log(entradaMaiuscula);
 
-const lowerCaseInput = cleanedInput.toLowerCase();
-console.log("Result of using the toLowerCase() method:");
-console.log(lowerCaseInput);
+const entradaMinuscula = entradaLimpa.toLowerCase();
+console.log("Resultado ao usar o metodo toLowerCase():");
+console.log(entradaMinuscula);
 
-const lowercaseWord = "camelcase";
-const camelCasedVersion = lowercaseWord.slice(0, 5);
-console.log("Camel cased version:");
-console.log(camelCasedVersion);
+const palavraMinuscula = "camelcase";
+const versaoCamelCase = palavraMinuscula.slice(0, 5) + palavraMinuscula[5].toUpperCase() + palavraMinuscula.slice(-3);
+console.log("Versao em camel case:");
+console.log(versaoCamelCase);
