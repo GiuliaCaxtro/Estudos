@@ -33,7 +33,7 @@ console.log(ultimoCaractere);
 
 const fraseAprenderEDivertido = "Aprender e divertido.";
 
-console.log("Aqui estao exemplos de como encontrar as posicoes de substrings na frase.");
+console.log("Aqui estao exemplos de como encontrar as posições de substrings na frase.");
 
 console.log(fraseAprenderEDivertido.indexOf("Aprender"));
 
